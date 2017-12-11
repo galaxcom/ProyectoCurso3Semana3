@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProyectoMascotas</string>
+    <string name="nombreMascota">nombre</string>
+    <string name="ratingMascota">0</string>
+</resources>
