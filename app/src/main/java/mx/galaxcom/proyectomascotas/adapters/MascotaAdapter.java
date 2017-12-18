@@ -1,4 +1,4 @@
-package mx.galaxcom.proyectomascotas;
+package mx.galaxcom.proyectomascotas.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,6 +8,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import mx.galaxcom.proyectomascotas.R;
+import mx.galaxcom.proyectomascotas.pojo.Mascota;
 
 /**
  * Created by david on 08/12/2017.

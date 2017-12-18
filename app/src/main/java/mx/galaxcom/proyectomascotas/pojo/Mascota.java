@@ -1,4 +1,4 @@
-package mx.galaxcom.proyectomascotas;
+package mx.galaxcom.proyectomascotas.pojo;
 
 /**
  * Created by david on 07/12/2017.

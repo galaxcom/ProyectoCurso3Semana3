@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="mx.galaxcom.proyectomascotas.Lista5Mascotas">
+    tools:context="mx.galaxcom.proyectomascotas.activities.Lista5Mascotas">
 
-    <include android:id="@+id/miActionBar"
-        layout="@layout/mi_action_bar"
-        ></include>
+    <include
+        android:id="@+id/miActionBar"
+        layout="@layout/mi_toolbar"></include>
 
     <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/miActionBar"
         android:id="@+id/rvActivity2"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_below="@id/miActionBar">
+        android:layout_width="match_parent">
 
     </android.support.v7.widget.RecyclerView>
 
